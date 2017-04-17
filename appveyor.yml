@@ -9,5 +9,5 @@ before_build:
 - nuget restore
 
 build:
- project: TesteAppVeyor.sln
- publish_wap: true
+  project: TesteAppVeyor.sln
+  publish_wap: true
