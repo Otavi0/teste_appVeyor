@@ -2,7 +2,7 @@
 
 platform: Any CPU
 
-Configuration:
+configuration:
 - Release
 
 before_build:
