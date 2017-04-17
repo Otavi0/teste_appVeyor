@@ -1,0 +1,13 @@
+﻿# AppVeyor Configuration
+
+platform: Any CPU
+
+Configuration:
+- Release
+
+before_build:
+- nuget restore
+
+build:
+ project: TesteAppVeyor.sln
+ publish_wap: true
