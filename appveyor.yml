@@ -11,3 +11,7 @@ before_build:
 build:
   project: TesteAppVeyor.sln
   publish_wap: true
+
+deploy:
+ provider: Environment
+ name: OTAVIO-PC - Production
